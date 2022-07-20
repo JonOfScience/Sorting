@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace BubbleSortApp
+{
+    public class Sorter
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+
+        public int[] BubbleSort(int[] input)
+        {
+            return new int[1] { -1 };
+        }
+    }
+}
